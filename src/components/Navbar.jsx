@@ -11,10 +11,10 @@ const Navbar = () => {
         <img className="mx-2 w-10" src={logo} alt="logo" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-        <FaInstagram />
-        <FaXTwitter />
+        <FaLinkedin className="transition-all duration-300 hover:scale-125" />
+        <FaGithub className="transition-all duration-300 hover:scale-125" />
+        <FaInstagram className="transition-all duration-300 hover:scale-125" />
+        <FaXTwitter className="transition-all duration-300 hover:scale-125" />
       </div>
     </nav>
   );
