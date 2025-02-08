@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Technologies from "./components/Technologies";
 const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-white selection:text-black mx-auto">
@@ -10,10 +11,11 @@ const App = () => {
       </div>
 
       <div className="container mx-auto lg:pl-8">
-        <Navbar></Navbar>
+        <Navbar />
         <div className="main lg:mx-12 ">
-          <Hero></Hero>
-          <About></About>
+          <Hero />
+          <About />
+          <Technologies />
         </div>
       </div>
     </div>
