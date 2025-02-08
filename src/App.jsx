@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import About from "./components/About";
 const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-white selection:text-black mx-auto">
@@ -12,6 +13,7 @@ const App = () => {
         <Navbar></Navbar>
         <div className="main lg:mx-12 ">
           <Hero></Hero>
+          <About></About>
         </div>
       </div>
     </div>
