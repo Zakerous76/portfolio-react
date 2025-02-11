@@ -6,15 +6,15 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
-    <nav className="mb-20 flex items-center justify-between py-6">
+    <nav className="mb-20 mt-5 flex items-center justify-between py-6">
       <div className=" flex flex-shrink-0 items-center">
         <img
-          className="mx-2 w-10 transition-all duration-300 hover:scale-125"
+          className="ml-2 w-10 transition-all duration-300 hover:scale-125"
           src={logo}
           alt="logo"
         />
       </div>
-      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+      <div className="flex items-center justify-center gap-4 text-2xl">
         <FaLinkedin className="transition-all duration-300 hover:scale-125" />
         <FaGithub className="transition-all duration-300 hover:scale-125" />
         <FaInstagram className="transition-all duration-300 hover:scale-125" />
