@@ -11,8 +11,8 @@ import {
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
-const iconVariantsDuration = (duration) => ({
-  initial: { y: -10 },
+const iconVariantsDuration = (initial, duration) => ({
+  initial: { y: initial },
   animate: {
     y: [-10, 10],
     transition: {
@@ -31,7 +31,7 @@ const Technologies = () => {
       <h2 className="mt-10 mb-5 text-center text-2xl">Machine Learning</h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <motion.div
-          variants={iconVariantsDuration(2.0)}
+          variants={iconVariantsDuration(10, 2.0)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -39,7 +39,7 @@ const Technologies = () => {
           <FaPython className="text-6xl text-amber-300 " />
         </motion.div>
         <motion.div
-          variants={iconVariantsDuration(3)}
+          variants={iconVariantsDuration(5, 3)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -48,7 +48,7 @@ const Technologies = () => {
           <SiPytorch className="text-6xl text-red-500" />
         </motion.div>
         <motion.div
-          variants={iconVariantsDuration(6.5)}
+          variants={iconVariantsDuration(-3, 6.5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -57,7 +57,7 @@ const Technologies = () => {
           <SiTensorflow className="text-6xl text-orange-400" />
         </motion.div>
         <motion.div
-          variants={iconVariantsDuration(4)}
+          variants={iconVariantsDuration(2, 4)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -66,7 +66,7 @@ const Technologies = () => {
           <SiScikitlearn className="text-6xl text-amber-400" />
         </motion.div>
         <motion.div
-          variants={iconVariantsDuration(5.9)}
+          variants={iconVariantsDuration(-4, 5.9)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -79,7 +79,7 @@ const Technologies = () => {
       <h2 className="mt-10 mb-5 text-center text-2xl">Web Developing</h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <motion.div
-          variants={iconVariantsDuration(4.31)}
+          variants={iconVariantsDuration(5, 4.31)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -87,7 +87,7 @@ const Technologies = () => {
           <SiJavascript className="text-6xl text-amber-400" />
         </motion.div>
         <motion.div
-          variants={iconVariantsDuration(2.2)}
+          variants={iconVariantsDuration(-9, 2.2)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -96,7 +96,7 @@ const Technologies = () => {
           <RiReactjsLine className="text-6xl text-cyan-400" />
         </motion.div>
         <motion.div
-          variants={iconVariantsDuration(3)}
+          variants={iconVariantsDuration(6, 3)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -105,7 +105,7 @@ const Technologies = () => {
           <FaNodeJs className="text-6xl text-green-400" />
         </motion.div>
         <motion.div
-          variants={iconVariantsDuration(5.5)}
+          variants={iconVariantsDuration(-5, 5.5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -114,7 +114,7 @@ const Technologies = () => {
           <SiMongodb className="text-6xl text-green-400" />
         </motion.div>
         <motion.div
-          variants={iconVariantsDuration(2.34)}
+          variants={iconVariantsDuration(0, 2.34)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
