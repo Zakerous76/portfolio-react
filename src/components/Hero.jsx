@@ -1,12 +1,12 @@
-import React from "react";
-import { HERO_CONTENT } from "../constants";
-import profile from "../assets/kevinRushProfile.jpg";
-import { motion } from "framer-motion";
+import React from "react"
+import { HERO_CONTENT } from "../constants"
+import profile from "../assets/zaker-pf.jpg"
+import { motion } from "framer-motion"
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
   visible: { x: 0, opacity: 1, transition: { duration: 0.5, delay: delay } },
-});
+})
 
 const Hero = () => {
   return (
@@ -27,15 +27,16 @@ const Hero = () => {
               variants={container(0.3)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-500 via-slate-500 to-purple-500  bg-clip-text text-4xl tracking-tight text-transparent"
+              className="bg-gradient-to-r from-pink-500 via-slate-500 to-purple-500  bg-clip-text text-transparent text-4xl tracking-tight "
             >
-              Full Stack Developer
+              Full Stack Developer <br />
+              ML Engineer
             </motion.span>
             <motion.p
               variants={container(0.6)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter text-justify"
+              className="my-2 max-w-xl py-6 font-light tracking-tighter text-justify text-2xl"
             >
               {HERO_CONTENT}
             </motion.p>
@@ -53,7 +54,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

@@ -1,11 +1,11 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Technologies from "./components/Technologies";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import React from "react"
+import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
+import PersonalAchievements from "./components/PersonalAchievements"
+import Technologies from "./components/Technologies"
+import Experience from "./components/Experience"
+import Projects from "./components/Projects"
+import Contact from "./components/Contact"
 const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-white selection:text-black mx-auto">
@@ -17,15 +17,15 @@ const App = () => {
         <Navbar />
         <div className="main lg:mx-12 ">
           <Hero />
-          <About />
           <Technologies />
-          <Experience />
           <Projects />
+          <Experience />
+          <PersonalAchievements />
           <Contact />
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
