@@ -13,18 +13,15 @@ const Navbar = () => {
         </div>
       </div>
       <div className="flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin
-          className="transition-all duration-300 hover:scale-125"
-          href="https://www.linkedin.com/in/zaker-amin/"
-        />
-        <FaGithub
-          className="transition-all duration-300 hover:scale-125"
-          href="https://github.com/Zakerous76"
-        />
-        <FaInstagram
-          className="transition-all duration-300 hover:scale-125"
-          href="https://www.instagram.com/mzakeramin/"
-        />
+        <a href="https://www.linkedin.com/in/zaker-amin/" target="_blank">
+          <FaLinkedin className="transition-all duration-300 hover:scale-125" />
+        </a>
+        <a href="https://github.com/Zakerous76" target="_blank">
+          <FaGithub className="transition-all duration-300 hover:scale-125" />
+        </a>
+        <a href="https://www.instagram.com/mzakeramin/" target="_blank">
+          <FaInstagram className="transition-all duration-300 hover:scale-125" />
+        </a>
       </div>
     </nav>
   )
