@@ -27,7 +27,7 @@ const Hero = () => {
               variants={container(0.3)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-500 via-slate-500 to-purple-500  bg-clip-text text-transparent text-4xl tracking-tight "
+              className="p-1 text-center lg:text-start bg-gradient-to-r from-pink-500 via-slate-500 to-purple-500  bg-clip-text text-transparent text-4xl tracking-tight "
             >
               Full Stack Developer <br />
               ML Engineer

@@ -86,8 +86,7 @@ export const PROJECTS = [
       "numpy",
       "matplotlib",
     ],
-
-    url: "https://bookhive-edu.vercel.app/",
+    url: "https://github.com/Zakerous76/dl-sperm-classification",
   },
   {
     title: "Opinion Mining on Web Reviews",
