@@ -1,7 +1,5 @@
-import React from "react"
 import { CONTACT } from "../constants"
-import { FaLinkedin } from "react-icons/fa6"
-import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa"
+import ContactIcons from "./ContactIcons"
 
 const Contact = () => {
   return (
@@ -16,18 +14,7 @@ const Contact = () => {
           {CONTACT.email}
         </a>
         <div className="flex justify-center gap-5 my-9 text-2xl">
-          <FaLinkedinIn
-            className="transition-all duration-300 hover:scale-125"
-            href="https://www.linkedin.com/in/zaker-amin/"
-          />
-          <FaGithub
-            className="transition-all duration-300 hover:scale-125"
-            href="https://github.com/Zakerous76"
-          />
-          <FaInstagram
-            className="transition-all duration-300 hover:scale-125"
-            href="https://www.instagram.com/mzakeramin/"
-          />
+          <ContactIcons />
         </div>
       </div>
     </div>

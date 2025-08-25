@@ -14,7 +14,10 @@ const PersonalAchievements = () => {
       <div className="flex flex-col max-w-3xl mx-auto text-lg space-y-6">
         <div>
           <p className="font-semibold text-purple-600">Fitness:</p>
-          <p>Deadlift: 170kg | Bench Press: 120kg | 5km Run: 27 minutes</p>
+          <p>
+            Deadlift: 170kg | Bench Press: 120kg | 5km Run: 27 minutes | 3km
+            Run: 18 minutes
+          </p>
           <hr className="my-4 border-neutral-900" />
         </div>
 
@@ -33,9 +36,10 @@ const PersonalAchievements = () => {
         <div>
           <p className="font-semibold text-purple-600">Scholarships:</p>
           <p>
-            Private High School Tuition Scholarship
+            Private High School Scholarship
             <br />
-            Undergraduate Full Scholarship – YTB
+            YTB Undergraduate Scholarship - Bachelor's in Computer Engineering
+            at Ankara University
             <br />
             YTB Merit Scholarship – Master’s Studies at Yıldız Technical
             University
